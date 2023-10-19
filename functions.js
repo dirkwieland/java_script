@@ -1,9 +1,16 @@
-// Definition Function
+// Function Definition
 function cutFruitPieces(fruit) {
   return fruit * 4;
 }
 
 // Call Function
-cutFruitPieces();
+cutFruitPieces(3);
 
-// First Commit
+// Function Expression
+const processFruit = function (fruit) {
+  let pieces = cutFruitPieces(fruit);
+  console.log(pieces);
+};
+
+// Call Function
+processFruit(5);
