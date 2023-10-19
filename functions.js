@@ -1,8 +1,9 @@
 // Definition Function
 function cutFruitPieces(fruit) {
-    return fruit * 4;
-};
+  return fruit * 4;
+}
 
 // Call Function
 cutFruitPieces();
 
+// First Commit
